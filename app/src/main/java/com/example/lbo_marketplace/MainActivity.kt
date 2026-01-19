@@ -1,5 +1,6 @@
 package com.example.lbo_marketplace
 
+import GreetingViewModel
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent

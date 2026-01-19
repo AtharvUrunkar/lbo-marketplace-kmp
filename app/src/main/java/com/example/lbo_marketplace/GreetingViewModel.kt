@@ -1,22 +1,28 @@
-package com.example.lbo_marketplace
-
 import androidx.lifecycle.ViewModel
-import com.example.shared.Greeting
+import androidx.lifecycle.viewModelScope
+import com.example.shared.network.ApiClient
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.launch
 
 class GreetingViewModel : ViewModel() {
 
-    private val greeting = Greeting()
+    private val apiClient = ApiClient()
 
-    private val _uiState = MutableStateFlow("")
+    private val _uiState = MutableStateFlow("Loading...")
     val uiState: StateFlow<String> = _uiState
 
     init {
-        loadGreeting()
+        fetch()
     }
 
-    private fun loadGreeting() {
-        _uiState.value = greeting.greet()
+    private fun fetch() {
+        viewModelScope.launch {
+            try {
+                _uiState.value = apiClient.testCall()
+            } catch (e: Exception) {
+                _uiState.value = "Error: ${e.message}"
+            }
+        }
     }
 }
