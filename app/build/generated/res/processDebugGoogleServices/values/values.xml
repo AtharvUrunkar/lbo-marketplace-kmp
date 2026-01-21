@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://celebration-wall-d5f34-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">882406731041</string>
+    <string name="google_api_key" translatable="false">AIzaSyDQpsVKjNe8C41ciBzSWYd2RzUBnQa0Ks8</string>
+    <string name="google_app_id" translatable="false">1:882406731041:android:ea279bb24595937e02a260</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDQpsVKjNe8C41ciBzSWYd2RzUBnQa0Ks8</string>
+    <string name="google_storage_bucket" translatable="false">celebration-wall-d5f34.firebasestorage.app</string>
+    <string name="project_id" translatable="false">celebration-wall-d5f34</string>
+</resources>

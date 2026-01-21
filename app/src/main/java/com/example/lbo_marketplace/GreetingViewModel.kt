@@ -4,7 +4,7 @@ import com.example.shared.network.ApiClient
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-
+import com.example.lbo_marketplace.auth.FirebaseAuthManager
 class GreetingViewModel : ViewModel() {
 
     private val apiClient = ApiClient()

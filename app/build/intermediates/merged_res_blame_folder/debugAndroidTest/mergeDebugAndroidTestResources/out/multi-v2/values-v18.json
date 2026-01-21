@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.lbo_marketplace.test.app-mergeDebugAndroidTestResources-27:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Atharv\\.gradle\\caches\\8.13\\transforms\\a4a6490f9ac8d5fa99f5f8fe4590bc82\\transformed\\core-1.7.0\\res\\values-v18\\values.xml",
+                    "from": {
+                        "startLines": "4,12",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,562",
+                        "endLines": "11,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "561,975"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,475",
+                        "endLines": "9,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "470,888"
+                    }
+                }
+            ]
+        }
+    ]
+}
