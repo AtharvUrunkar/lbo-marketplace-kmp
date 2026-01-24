@@ -80,4 +80,14 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 
+        // Firebase BOM
+        implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+
+        // Firebase Auth
+        implementation("com.google.firebase:firebase-auth-ktx")
+
+        // Firestore
+        implementation("com.google.firebase:firebase-firestore-ktx")
+    
+
 }
