@@ -1,62 +1,37 @@
 package com.example.lbo_marketplace.auth
 
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
 
 class FirebaseAuthManager {
 
-    private val auth: FirebaseAuth = FirebaseAuth.getInstance()
+    private val auth = FirebaseAuth.getInstance()
+    private val db = FirebaseFirestore.getInstance()
 
-    /**
-     * Register user with email & password
-     */
-    suspend fun signUp(
-        email: String,
-        password: String
-    ): FirebaseUser? {
-        val result = auth
-            .createUserWithEmailAndPassword(email, password)
-            .await()
+    suspend fun login(email: String, password: String): Result<Pair<String, String>> {
+        return try {
+            val result = auth.signInWithEmailAndPassword(email, password).await()
+            val uid = result.user?.uid ?: return Result.failure(Exception("UID null"))
 
-        return result.user
+            val snapshot = db.collection("users").document(uid).get().await()
+            val role = snapshot.getString("role") ?: "USER"
+
+            Result.success(uid to role)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
     }
 
-    /**
-     * Login user with email & password
-     */
-    suspend fun login(
-        email: String,
-        password: String
-    ): FirebaseUser? {
-        val result = auth
-            .signInWithEmailAndPassword(email, password)
-            .await()
+    suspend fun checkSession(): Result<Pair<String, String>> {
+        val user = auth.currentUser ?: return Result.failure(Exception("Not logged in"))
 
-        return result.user
-    }
-
-    /**
-     * Logout current user
-     */
-    fun logout() {
-        auth.signOut()
-    }
-
-    /**
-     * Get currently logged-in user
-     */
-    fun currentUser(): FirebaseUser? {
-        return auth.currentUser
-    }
-
-    /**
-     * Get Firebase ID Token (JWT)
-     * This will be sent to backend / Firestore
-     */
-    suspend fun getIdToken(): String? {
-        val user = auth.currentUser ?: return null
-        val tokenResult = user.getIdToken(true).await()
-        return tokenResult.token
+        return try {
+            val snapshot = db.collection("users").document(user.uid).get().await()
+            val role = snapshot.getString("role") ?: "USER"
+            Result.success(user.uid to role)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
     }
 }

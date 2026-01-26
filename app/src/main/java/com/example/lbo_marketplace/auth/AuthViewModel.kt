@@ -14,39 +14,30 @@ class AuthViewModel(
     val authState: StateFlow<AuthState> = _authState
 
     fun login(email: String, password: String) {
+        _authState.value = AuthState.Loading
+
         viewModelScope.launch {
-            _authState.value = AuthState.Loading
-            try {
-                val user = authManager.login(email, password)
-                if (user != null) {
-                    _authState.value = AuthState.Authenticated
-                } else {
-                    _authState.value = AuthState.Error("Login failed")
+            authManager.login(email, password)
+                .onSuccess { (uid, role) ->
+                    _authState.value = AuthState.Authenticated(uid, role)
                 }
-            } catch (e: Exception) {
-                _authState.value = AuthState.Error(e.message ?: "Unknown error")
-            }
+                .onFailure {
+                    _authState.value = AuthState.Error(it.message ?: "Login failed")
+                }
         }
     }
 
-    fun signUp(email: String, password: String) {
-        viewModelScope.launch {
-            _authState.value = AuthState.Loading
-            try {
-                val user = authManager.signUp(email, password)
-                if (user != null) {
-                    _authState.value = AuthState.Authenticated
-                } else {
-                    _authState.value = AuthState.Error("Signup failed")
-                }
-            } catch (e: Exception) {
-                _authState.value = AuthState.Error(e.message ?: "Unknown error")
-            }
-        }
-    }
+    fun checkSession() {
+        _authState.value = AuthState.Loading
 
-    fun logout() {
-        authManager.logout()
-        _authState.value = AuthState.Idle
+        viewModelScope.launch {
+            authManager.checkSession()
+                .onSuccess { (uid, role) ->
+                    _authState.value = AuthState.Authenticated(uid, role)
+                }
+                .onFailure {
+                    _authState.value = AuthState.Idle
+                }
+        }
     }
 }
