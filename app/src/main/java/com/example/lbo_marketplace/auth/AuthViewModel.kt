@@ -1,43 +1,59 @@
 package com.example.lbo_marketplace.auth
 
+import androidx.compose.runtime.State
+import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
-class AuthViewModel(
-    private val authManager: FirebaseAuthManager = FirebaseAuthManager()
-) : ViewModel() {
+class AuthViewModel : ViewModel() {
 
-    private val _authState = MutableStateFlow<AuthState>(AuthState.Idle)
-    val authState: StateFlow<AuthState> = _authState
+    private val authManager = FirebaseAuthManager()
+
+    private val _authState = mutableStateOf<AuthState>(AuthState.Idle)
+    val authState: State<AuthState> = _authState
+
+    fun register(name: String, email: String, password: String) {
+        viewModelScope.launch {
+            _authState.value = AuthState.Loading
+
+            val result = authManager.register(name, email, password)
+
+            _authState.value = result.fold(
+                onSuccess = { AuthState.Authenticated(it.first, it.second) },
+                onFailure = { AuthState.Error(it.message ?: "Error") }
+            )
+        }
+    }
 
     fun login(email: String, password: String) {
-        _authState.value = AuthState.Loading
-
         viewModelScope.launch {
-            authManager.login(email, password)
-                .onSuccess { (uid, role) ->
-                    _authState.value = AuthState.Authenticated(uid, role)
-                }
-                .onFailure {
-                    _authState.value = AuthState.Error(it.message ?: "Login failed")
-                }
+            _authState.value = AuthState.Loading
+
+            val result = authManager.login(email, password)
+
+            _authState.value = result.fold(
+                onSuccess = { AuthState.Authenticated(it.first, it.second) },
+                onFailure = { AuthState.Error(it.message ?: "Error") }
+            )
         }
     }
 
     fun checkSession() {
-        _authState.value = AuthState.Loading
-
         viewModelScope.launch {
-            authManager.checkSession()
-                .onSuccess { (uid, role) ->
-                    _authState.value = AuthState.Authenticated(uid, role)
-                }
-                .onFailure {
-                    _authState.value = AuthState.Idle
-                }
+            _authState.value = AuthState.Loading
+
+            val result = authManager.checkSession()
+
+            _authState.value = result.fold(
+                onSuccess = { AuthState.Authenticated(it.first, it.second) },
+                onFailure = { AuthState.Unauthenticated }
+            )
         }
+    }
+
+    fun logout() {
+        authManager.logout()
+        _authState.value = AuthState.Unauthenticated
     }
 }

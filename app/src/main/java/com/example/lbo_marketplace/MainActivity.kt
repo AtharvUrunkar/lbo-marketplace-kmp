@@ -9,6 +9,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.lbo_marketplace.auth.AuthSessionTestScreen
 import com.example.lbo_marketplace.ui.theme.LbomarketplaceTheme
+import com.example.lbo_marketplace.ui.navigation.AppNavigation
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             LbomarketplaceTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) {
-                    AuthSessionTestScreen()
+                    AppNavigation()
                 }
             }
         }
