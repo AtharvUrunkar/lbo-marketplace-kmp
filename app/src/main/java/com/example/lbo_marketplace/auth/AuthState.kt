@@ -1,8 +1,10 @@
 package com.example.lbo_marketplace.auth
 
 sealed class AuthState {
+
     object Idle : AuthState()
     object Loading : AuthState()
+    object Unauthenticated : AuthState()
 
     data class Authenticated(
         val uid: String,
