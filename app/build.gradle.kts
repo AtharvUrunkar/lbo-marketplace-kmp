@@ -88,6 +88,6 @@ dependencies {
 
         // Firestore
         implementation("com.google.firebase:firebase-firestore-ktx")
-    
+    implementation("androidx.compose.foundation:foundation:1.5.4")
 
 }
