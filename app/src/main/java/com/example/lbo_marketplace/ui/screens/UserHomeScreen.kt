@@ -19,7 +19,8 @@ import com.example.lbo_marketplace.auth.AuthViewModel
 import com.example.lbo_marketplace.auth.ProviderViewModel
 import com.google.android.gms.location.LocationServices
 import com.google.firebase.auth.FirebaseAuth
-
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 @Composable
 fun UserHomeScreen(
     authViewModel: AuthViewModel = viewModel()

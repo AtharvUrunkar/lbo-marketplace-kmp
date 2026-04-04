@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:1-31:12
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
+ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\954054f472a75274c548815bb5095278\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\a7c718f46d353e9822e5e89290506b20\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\049b20f2fde7202f9838f773345561f3\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Atharv\.gradle\caches\8.13\transforms\e2bab7b40370b28d54121800d54b191d\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
@@ -16,7 +17,7 @@ MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Atharv\.
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Atharv\.gradle\caches\8.13\transforms\bdeb08eef1bbf83badc52165d4b3801a\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\701f8bdbacea4298f5163a776571170a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Atharv\.gradle\caches\8.13\transforms\58db2d03238d8012850caa3b9b98406b\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6cbcc6d8ea58bba035cd986ebb7f2111\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\4ea47650453a36abdae40a9b1b1ac32d\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\7e73d20b7b19ea8cff995c5439ef6fb0\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
@@ -103,25 +104,31 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Atharv\.gradle\
 		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:6:5-67
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\8c8d2c88a60cca93e47f72c228ebf3b4\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\8c8d2c88a60cca93e47f72c228ebf3b4\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:8:5-29:19
-INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:8:5-29:19
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:9:5-30:19
+INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:9:5-30:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\954054f472a75274c548815bb5095278\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\954054f472a75274c548815bb5095278\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\a7c718f46d353e9822e5e89290506b20\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\a7c718f46d353e9822e5e89290506b20\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Atharv\.gradle\caches\8.13\transforms\6b1d232c92645b55f9c6bd8a984da3b4\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
@@ -130,8 +137,8 @@ MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Atharv\.
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6018e6efe0e49fbbcbdf26c16e0051a3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\701f8bdbacea4298f5163a776571170a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\701f8bdbacea4298f5163a776571170a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6cbcc6d8ea58bba035cd986ebb7f2111\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6cbcc6d8ea58bba035cd986ebb7f2111\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\4ea47650453a36abdae40a9b1b1ac32d\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
@@ -167,53 +174,55 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Atharv\.gradle\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\10f291bb0f5751f1247846c55087b82e\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:16:9-52
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:17:9-52
 	android:dataExtractionRules
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:10:9-65
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:11:9-65
 activity#com.example.lbo_marketplace.MainActivity
-ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:18:9-27:20
+ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:19:9-28:20
 	android:label
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:22:13-45
 	android:exported
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:21:13-36
 	android:theme
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:22:13-56
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:23:13-26:29
+ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\954054f472a75274c548815bb5095278\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\954054f472a75274c548815bb5095278\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\a7c718f46d353e9822e5e89290506b20\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\a7c718f46d353e9822e5e89290506b20\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\049b20f2fde7202f9838f773345561f3\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
@@ -230,8 +239,8 @@ MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Atharv\.
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\701f8bdbacea4298f5163a776571170a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Atharv\.gradle\caches\8.13\transforms\58db2d03238d8012850caa3b9b98406b\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Atharv\.gradle\caches\8.13\transforms\58db2d03238d8012850caa3b9b98406b\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6cbcc6d8ea58bba035cd986ebb7f2111\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6cbcc6d8ea58bba035cd986ebb7f2111\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\4ea47650453a36abdae40a9b1b1ac32d\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
@@ -387,41 +396,59 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Atharv\.gradle\
 	android:minSdkVersion
 		INJECTED from C:\Users\Atharv\AndroidStudioProjects\lbomarketplace\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
+ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6cbcc6d8ea58bba035cd986ebb7f2111\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6cbcc6d8ea58bba035cd986ebb7f2111\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\7e73d20b7b19ea8cff995c5439ef6fb0\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\7e73d20b7b19ea8cff995c5439ef6fb0\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:10:13-37
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:11:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\7e73d20b7b19ea8cff995c5439ef6fb0\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\7e73d20b7b19ea8cff995c5439ef6fb0\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:9:13-84
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:10:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:13:17-129
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\8c8d2c88a60cca93e47f72c228ebf3b4\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\8c8d2c88a60cca93e47f72c228ebf3b4\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Atharv\.gradle\caches\8.13\transforms\0a227726f567c64d94193ad1ea716022\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Atharv\.gradle\caches\8.13\transforms\0a227726f567c64d94193ad1ea716022\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
 meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
 ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:11:13-13:85
 	android:value
 		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\8f29e83f894578185a93524c6c330478\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:12:17-119
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\8c8d2c88a60cca93e47f72c228ebf3b4\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\8c8d2c88a60cca93e47f72c228ebf3b4\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
-MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Atharv\.gradle\caches\8.13\transforms\0a227726f567c64d94193ad1ea716022\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
-MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Atharv\.gradle\caches\8.13\transforms\0a227726f567c64d94193ad1ea716022\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents
@@ -476,24 +503,6 @@ ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\ca
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\b386203b9b8c1e03b8a730ea02d263af\transformed\firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
-meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
-ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:12:13-14:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:14:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\c8e94800aaff262f8ba66c1fc742175f\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:13:17-129
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
-ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\67165d24acc1f8dba39c7a5109202717\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
 service#androidx.credentials.playservices.CredentialProviderMetadataHolder
 ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Atharv\.gradle\caches\8.13\transforms\6b1d232c92645b55f9c6bd8a984da3b4\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
 	android:enabled
@@ -545,13 +554,13 @@ ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Atharv\.g
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6018e6efe0e49fbbcbdf26c16e0051a3\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Atharv\.gradle\caches\8.13\transforms\2501d7868207334dbc7a7c3833c400bd\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\f0d8efd4749d086850e7095f151c601b\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
 ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Atharv\.gradle\caches\8.13\transforms\6cbcc6d8ea58bba035cd986ebb7f2111\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
 	android:value
